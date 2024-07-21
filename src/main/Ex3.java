@@ -7,22 +7,22 @@ public class Ex3 {
 		Calculator calculator = new Calculator();
 		System.out.println(calculator.add(10, 5));
 		System.out.println(calculator.subStract(10, 5));
-		System.out.println(calculator.times(10, 5));
-		System.out.println(calculator.divide(10, 5));
+		System.out.println(calculator.times(10, -5));
+		System.out.println(calculator.divide(10, 50));
 		System.out.println();
 
 		NewCalculator cal = new NewCalculator();
 		System.out.println(cal.add(10, 5));
 		System.out.println(cal.subStract(10, 5));
-		System.out.println(cal.times(10, 5));
-		System.out.println(cal.divide(10, 5));
+		System.out.println(cal.times(10, -5));
+		System.out.println(cal.divide(10, 50));
 		System.out.println();
 		
 		Calc calculator2 = new NewCalculator();
 		System.out.println(calculator2.add(10, 5));
 		System.out.println(calculator2.subStract(10, 5));
-		System.out.println(calculator2.times(10, 5));
-		System.out.println(calculator2.divide(10, 5));
+		System.out.println(calculator2.times(10, -5));
+		System.out.println(calculator2.divide(10, 50));
 		
 	}
 

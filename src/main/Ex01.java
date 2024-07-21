@@ -7,7 +7,7 @@ public class Ex01 {
 		//d
 		Calculator calculator = new Calculator();
 
-		int add = calculator.add(5, 10);
+		int add = calculator.add(6, 10);
 		int subStract = calculator.subStract(5, 10);
 		int times = calculator.times(5, 10);
 		double divide = calculator.divide(5, 10);
@@ -34,6 +34,7 @@ class Calculator implements Calc { // 인터페이스 상속 키워드: implemen
 	public int add(int num1, int num2) {
 		int add = num1 + num2;
 		return add;
+		
 	}
 
 	@Override

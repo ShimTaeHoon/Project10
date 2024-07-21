@@ -14,7 +14,7 @@ public class Ex02 {
 		// 자식타입 변수 = (자식타입) 부모 변수
 		// 자식클래스에서 상속 받지 않은 메소드를 사용하기 위한 강제 형변환
 		if (calc instanceof Calculator) {
-			Calculator calculator = (Calculator) calc2;
+			Calculator calculator = (Calculator) calc;
 			calculator.showInfo();
 		}
 	}

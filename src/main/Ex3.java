@@ -23,6 +23,7 @@ public class Ex3 {
 		System.out.println(calculator2.subStract(10, 5));
 		System.out.println(calculator2.times(10, -5));
 		System.out.println(calculator2.divide(10, 50));
+//		System.out.println(calculator2.tes);
 		
 	}
 
